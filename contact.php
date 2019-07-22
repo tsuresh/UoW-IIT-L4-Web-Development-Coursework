@@ -4,12 +4,16 @@
    <br>
    <p class="subtitle">Contact the team in order to<br>get to know the best deals around Sri Lanka<p>
    <form action="javascript:validate();" method="get" style="margin-top:0;">
+      <label for="txtName">Enter your name</label>
       <input type="text" class="textField" name="name" placeholder="Enter your name" id="txtName"/>
       <br>
-      <input type="email" class="textField" name="name" placeholder="Enter your email" id="txtEmail"/>
+      <label for="txtEmail">Enter your email</label>
+      <input type="email" class="textField" name="email" placeholder="Enter your email" id="txtEmail"/>
       <br>
+      <label for="txtComment">Enter your comment</label>
       <textarea class="textField" rows="8" placeholder="Enter the comment" id="txtComment"></textarea>
       <br>
+      <label for="selRating">Select your rating</label>
       <select class="textField" style="height: 56px; width: 438px;" id="selRating">
         <option value="">None</option>
         <option value="poor">Poor</option>

@@ -7,7 +7,7 @@
    <form action="search.php" method="get">
       <label for="keyword">Enter your search query</label>
       <input type="text" class="searchBox" name="keyword" id="keyword" placeholder="Search for destinations, attractions and hotels"/>
-      <i class="fa fa-search searchIcon" onClick="document.forms[0].submit();"></i>
+      <strong class="fa fa-search searchIcon" onClick="document.forms[0].submit();"></strong>
    </form>
    <a href="#shop" class="featuredLink">Shop</a> |  <a href="sitemap.php" class="featuredLink">Sitemap</a> 
 </div>
