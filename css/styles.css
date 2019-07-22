@@ -9,6 +9,11 @@ body {
     background-position: 0 -200px;
     background-repeat: no-repeat;
 }
+
+label {
+	display: none;
+}
+
 .logo {
 	width: 215px;
     margin: 25px 0 0 25px;

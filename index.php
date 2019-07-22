@@ -5,7 +5,8 @@
    <p class="subtitle">Choose your favourite travel destination</p>
    <br>
    <form action="search.php" method="get">
-      <input type="text" class="searchBox" name="q" placeholder="Search for destinations, attractions and hotels"/>
+      <label for="keyword">Enter your search query</label>
+      <input type="text" class="searchBox" name="keyword" id="keyword" placeholder="Search for destinations, attractions and hotels"/>
       <i class="fa fa-search searchIcon" onClick="document.forms[0].submit();"></i>
    </form>
    <a href="#shop" class="featuredLink">Shop</a> |  <a href="sitemap.php" class="featuredLink">Sitemap</a> 
@@ -37,7 +38,7 @@
       <div class="bigBlock">
          <h1>
          Travel Sri Lanka Store
-         <h1>
+         </h1>
          <p style="width:300px;">Want to purchase amazing Sri Lankan ornaments? Visit our online store and purchase as you wish. Lowest price in Island.</p>
          <a class="btn" href="shop.php">Shop Online</a>   
       </div>

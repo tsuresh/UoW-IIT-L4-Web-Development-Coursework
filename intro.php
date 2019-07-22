@@ -59,5 +59,11 @@
          Piumini</a>
          Last Modified date : 7/7/2019
       </footer>
+      <script>
+      var myVar = setInterval(redirect, 4000);
+      function redirect() {
+         window.location = "index.php";
+      }
+      </script>
    </body>
 </html>
