@@ -1,0 +1,119 @@
+body{
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;   
+}
+
+path{
+    stroke: white;
+    stroke-width: 2;
+}
+ellipse{
+    stroke:#0b0bb6;
+    stroke-width:5;
+    fill:rgba(0, 255, 136, 0.459);
+}
+.title{
+    fill:white;
+    font-family:Georgia, serif;
+    font-size:24;
+}
+.logo{
+    /* height:120px;
+    width: 215px; */
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+
+text{
+    fill:white;
+}
+#first{
+    stroke: rgb(235, 121, 27);
+    stroke-width: 5;
+    fill:transparent;
+}
+#second{
+    stroke: rgb(79, 214, 37);
+    stroke-width: 5;
+    fill:transparent;
+}
+#third{
+    stroke: rgb(12, 81, 160);
+    stroke-width: 5;
+    fill:transparent;
+}
+#fourth{
+    stroke: rgb(17, 230, 112);
+    stroke-width: 5;
+    fill:transparent;
+}
+
+#fifth{
+    stroke: rgb(165, 7, 185);
+    stroke-width: 5;
+    fill:transparent;
+}
+#sixth{
+    stroke: rgb(247, 54, 79);
+    stroke-width: 5;
+    fill:transparent;
+}
+.pages{
+    fill:white;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:22;
+}
+hr{
+    margin-left: 0px;
+    width:30%;
+}
+footer{
+    color: white;
+
+}
+footer a{
+    font-size: 20;
+    color:#ffffff;
+}
+footer a:hover{
+    color:rgb(26, 150, 92);
+}
+
+.navBar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20;
+    position: absolute;
+    right:10px;
+    top:50px;
+}
+
+.navBar nav ul li {
+	float: left;
+	list-style: none;
+}
+.navBar nav ul li a {
+	display: block;
+    background: #353535;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.navBar nav {
+	/* display: inline-block; */
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.navBar nav ul li:first-child a {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.navBar nav ul li:last-child a {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}

@@ -1,0 +1,74 @@
+#resumePage {
+    width: 900px;
+    background-color:rgba(0,0,0, 0.5);
+    margin-left: 210px;
+    padding: 10px;
+}
+#header {
+    color: black;
+    max-width: 100%;
+    height: 288px;;
+    background-position: bottom;
+}
+#left {
+    padding: 0 21px 21px 21px;
+    text-align: left;
+    float: left;
+    width: 278px;
+    height: 1500px;
+    color: white;
+    background-color: rgba(25, 44, 64, 0.5);
+    margin-top: 10px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+#Right {
+    width: 538px;
+    height: 1500px;
+    background-color: darkgray;
+    float: right;
+    margin-top: 10px;
+    padding: 0 21px 21px 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+h3 {
+    text-align: left;
+    font-size: 20px;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Darker Grotesque', sans-serif;
+    border-radius: 12px;
+}
+body {
+    background-image: url('../img/b23.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fas fa-mobile-alt {
+    align-content: center;
+}
+h2 {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+#foot{
+    background-color:rgba(29, 80, 130,0.3);
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    margin-top: 140px;
+}
+.cvIcon {
+    margin-left: 4PX;
+    padding: 10px;
+}
+.clearfix {
+    clear: both;
+}

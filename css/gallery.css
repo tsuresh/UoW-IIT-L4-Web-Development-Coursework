@@ -1,0 +1,137 @@
+body{
+    background-color: #72481470;
+}
+#essContainer{
+    padding-top:120px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+}
+/* .navigation{
+    background-color:rgba(51, 51, 53, 0.253);
+    width:100%;
+    height:60px;
+} */
+.label{
+    color:black;
+}
+
+.inlineOne{display:inline-block;margin-left:10px;margin-bottom:10px;}
+.inlineTwo{display:inline-block;margin-left:10px;margin-bottom:10px;}
+#topColourChanger{
+    border-color: #c9d4d8;
+    border-width: 4px;
+    border-style: dotted dashed double solid;
+    padding: 10px;
+    background-color:rgba(15, 29, 231, 0.253);
+    display: inline-block;
+    margin-bottom:20px;
+    margin-left: 250px;
+}
+
+.logo{
+    height:120px;
+    width: 215px;
+    /* border-radius: 30%; */
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+#thumbnailImages{
+    height:150px; 
+}
+#container{
+    margin-left:30px;
+}
+.formHeadingFormatting{
+    font-family:sans-serif;
+    float:right;
+    margin-left:200px;
+    margin-right:70px;         
+}
+#thumbnailImagesSecondSet{
+    height:100px;
+    width:150px;
+}
+#descriptionAndImageArea{
+    text-align: center;
+    margin-left: 160px;
+    height: 550px;
+    width:1000px;
+    background:linear-gradient(#62e056, #9198e5);
+    font-family: 'Times New Roman', Times, serif;
+}
+.pidurangala{
+    margin-left: 200px;
+}
+#enlargePhoto{
+    width:600;
+    height: 365;
+}
+.formatSize{
+    height:30px;
+    width:30px;
+}
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, rgb(50, 19, 190) 0%, #910485 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#name{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}
+hr{
+    margin-left: 0px;
+    width:30%;
+}
+footer{
+    color: white;
+
+}
+footer a{
+    font-size: 20;
+    color:#ffffff;
+}
+footer a:hover{
+    color:rgb(26, 150, 92);
+}
+
+.navBar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    position: absolute;
+    right:10px;
+    top:50px;
+}
+
+.navBar nav ul li {
+	float: left;
+	list-style: none;
+}
+.navBar nav ul li a {
+	display: block;
+    background: #353535;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navBar nav {
+	/* display: inline-block; */
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.navBar nav ul li:first-child a {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.navBar nav ul li:last-child a {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}

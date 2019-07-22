@@ -1,0 +1,121 @@
+   .div_one {
+            float: left;
+            width: 250px;
+            height: 250px;
+            max-height: 250px;
+            margin: 38px;
+            padding-left: 5px;
+            position: relative;
+            margin-top: -160px;
+            cursor: pointer;
+        }
+
+        .one {
+            border-radius: 200px;
+            overflow: scroll;
+
+        }
+
+        .text {
+            margin-top: 40px;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Sniglet', cursive;
+        }
+
+        .one {
+            padding: 12px;
+            background-color: transparent;
+            transition: transform .2s;
+            /* Animation */
+
+            margin: 0 auto;
+        }
+
+        .one:hover {
+            transform: scale(1.5);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        #description {
+            color: black;
+            position: absolute;
+            margin-top: 220px;
+            width: 1300px;
+            height: 700px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-image: url('../img/f.jpg');
+            background-size: cover;
+            margin-left: 6px;
+            font-family: 'Varela Round', sans-serif;
+        }
+
+
+
+        p {
+
+            text-align: justify;
+            margin: 30px;
+            font-size: 30px;
+
+
+        }
+
+        #link {
+            margin-top: 250px;
+            font-size: 15px;
+        }
+
+        .sub {
+            float: left;
+            width: 250px;
+            height: 600px;
+            margin: 10px;
+            text-align: justify;
+            font-family: 'Didact Gothic', sans-serif;
+            color: white;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+
+        #two {
+            background-color: rgba(0, 3, 7, 0.8);
+            margin-left: 45px;
+            width: 1200px;
+            height: 400px;
+
+
+        }
+
+        a:link {
+            color: gray;
+        }
+
+        a:visited {
+            color: aqua;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        h1 {
+            padding: 10px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 50px;
+            margin-left: 20px;
+            text-align: center;
+        }
+        footer {
+            margin-top:950px;
+            color: black;
+            margin-left: 20px;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            position: absolute;
+
+        }

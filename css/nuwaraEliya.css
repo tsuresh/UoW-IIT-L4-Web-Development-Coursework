@@ -1,0 +1,305 @@
+#topButton{
+    display:none;
+    bottom: 50px;
+    right: 30px;
+    height:20px;
+    width:75px;
+    position: fixed;
+    background-color: #09fdb475;
+    color:white;
+}
+#bottomButton{
+    display: none;
+    bottom: 20px;
+    right: 30px;
+    height:20px;
+    width:75px;
+    position: fixed;
+    background-color: #1f818175;
+    color:white;
+}
+#gridNuwaraEliya{
+    display: grid;
+    height:2000px;
+    width:1350px;
+    grid-template-areas:/* "a1 a2" */
+                        "b1 b2"
+                        "c1 c1"
+                        "d1 d2"
+                        "e1 e1"
+                        "f1 f1"
+                        "g1 g1";
+    grid-template-columns:380px 1fr;
+    grid-template-rows: /* 80px */ 200px 80px 400px 550px 100px 1fr;
+    border: 3px solid green;
+}
+
+.headNEb1{
+    grid-area:b1;
+    background-image:url("../img/then.jpg");
+    background-repeat: no-repeat;
+    background-size:380px 200px;
+   
+}
+.headNEb1 img{
+width: 320px;
+height: 180px;
+}
+
+.headNEb2{
+    grid-area:b2;
+    color: rgb(69, 0, 87);
+    background-image:url("../img/now.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 200px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:26;
+    padding: 30px;
+}
+.titleDiscript{
+    width:780px;
+    padding: 5px;
+    background-color:rgba(255, 255, 255, 0.219);
+}
+.nuwaraEliya{
+    color: rgb(165, 1, 151);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:32;
+}
+/* second grid */
+.menuToLinkPartsOfThePage{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:20;
+    grid-area:c1;
+    background-image: url("../img/leaves.jpg");
+    background-size:100% 200px;
+    background-repeat:no-repeat;
+    position:relative;
+    display:grid;
+    width:100%;
+    height:80px;
+    grid-template-areas:"x1 x2 x3";
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    text-align: center;
+}
+
+.descAndMap{
+color: darkkhaki;
+grid-area:x1;
+padding: 28px;
+border:2px dashed white;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+
+.descAndMap:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.places{
+color: darkkhaki;
+grid-area:x2;
+padding: 28px;
+border:2px dashed white;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+
+}
+
+.places:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.hotels{
+color: darkkhaki;
+grid-area:c1;
+grid-area:x3;
+padding: 28px;
+border:2px dashed white;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+
+}
+
+.hotels:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+.nEliBorderMap{
+text-align: center;
+padding: 20px;
+grid-area:d1;
+background-color: rgba(6, 145, 52, 0.534);
+/* background-image: url("Capture.PNG");
+background-size: 330px 350px; */
+}
+.borderHeading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+}
+.map{
+    width:340px;
+    height:330px;
+}
+
+.discriptionForNE{
+padding: 10%;
+grid-area:d2;
+background-color: rgba(0, 255, 136, 0.438);
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.findOut{
+    padding: 50px;
+    grid-area:f1;
+   background-image:linear-gradient(#339966,#59b300);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 30;
+}
+.hotelsToLodge{
+    background-image: linear-gradient(#33cc33,#006666);
+    grid-area: g1;
+    display:grid;
+    /* height: 600px; */
+    width:100%;
+    grid-template-areas:"y1 y2 y3 y4 y5"
+                        "s1 s1 s1 s1 s1"
+                        "z1 z2 z3 z4 z5";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:250px 10px 340px;
+}
+.hotelsToLodge img{
+    margin-bottom: 10px;
+    width:270px;
+    height: 250px;
+}
+.hotelsToLodge img:hover{
+    transform:scale(1.5);
+}
+
+
+.firstLoc{
+    grid-area: y1;
+}
+
+.secondLoc{
+    grid-area: y2;
+}
+.thirdLoc{
+    grid-area: y3;
+}
+.fourthLoc{
+    grid-area: y4;
+}
+.fifthLoc{
+    grid-area: y5;
+}
+.spaceBetwnImg{
+    grid-area:s1;
+}
+.sixthLoc{
+    grid-area: z2;
+}
+.seventhLoc{
+    grid-area: z3;
+}
+.eighthLoc{
+    grid-area: z4;
+}
+.chooseHotel1{
+    grid-area: z1 ;
+}
+.chooseHotel2{
+    grid-area:z5;
+}
+.chooseHotel img{
+    width:230px;
+    height: 190px;
+    
+}
+
+.thingsToDoHeading{
+    padding: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    color:#20B2AA;
+    font-size:24;
+    background-color: rgba(37, 39, 38, 0.493);
+}
+
+.thingsToDo{
+    padding-top: 30px;
+    padding-left: 40%;
+    grid-area:e1;
+    background-image:url("../img/visit.jpg");
+    background-size: 100% 550px;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, sans-serif;
+    color:rgb(248, 211, 211);
+    font-size:20;
+}
+
+
+.toDoList{
+    padding: 10px;
+    border:white dotted 2px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 580px;
+    margin-left: 40px;
+    background-color: rgba(3, 190, 75, 0.534);
+}
+.toDoList img{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+} 
+
+hr{
+    margin-left: 0px;
+    width:30%;
+}
+footer{
+    color: black;
+
+}
+footer a{
+    font-size: 20;
+    color:black;
+}
+footer a:hover{
+    color:rgb(26, 150, 92);
+}
+
+.navBar {
+    font-family: 'Roboto', sans-serif;
+    grid-area:b2;
+    font-size: 14;
+}
+
+.navBar nav ul li {
+	float: left;
+	list-style: none;
+}
+.navBar nav ul li a {
+	display: block;
+    background: #353535;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navBar nav {
+	/* display: inline-block; */
+    float: right;
+    margin-top: -30px;
+}
+
+.navBar nav ul li:first-child a {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.navBar nav ul li:last-child a {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}

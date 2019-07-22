@@ -1,0 +1,176 @@
+ div#test {
+     padding: 10px 40px 40px 40px;
+     font-family: 'Nunito', sans-serif;
+     font-size: 25px;
+     padding-left: 100px;
+     margin-left: 50px;
+     color: white;
+     margin-right: 80px;
+     background-color: rgba(0, 2, 3, 0.7);
+     border-radius: 80px;
+     margin-top: 10px;
+     height: 310px;
+ }
+
+ body {
+     background-image: url('../img/done.jpg');
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: contain;
+     color: 155, 89, 182;
+     font-family: 'Nunito', sans-serif;
+     font-size: 30px;
+ }
+
+ h2 {
+     text-align: center;
+     margin-block-start: 5px;
+     margin-block-end: 5px;
+ }
+
+ p {
+    font-family: 'Nunito', sans-serif;
+     font-size: 32px;
+ }
+
+ #displayAnswer {
+     margin-top: 15px;
+     width: 500px;
+     margin-top: 10px;
+     font-size: 20px;
+     margin-left: 400px;
+     border-radius: 20px;
+     text-align: left;
+     padding-left: 50px;
+     color: black;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .button {
+     background-color: white;
+     border: none;
+     color: black;
+     padding: 8px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 30px;
+     margin: 3px 2px;
+     cursor: pointer;
+     font-family: 'Nunito', sans-serif;
+     font-weight: bold;
+     border-radius: 5px;
+     transition: all 0.25s ease-in;
+     margin-left: 750px;
+     
+ }
+
+ .button:hover {
+     background-color: black;
+     color: rgb(152, 221, 218);
+     ;
+ }
+
+ #timer {
+     background-color: rgba(215, 189, 226, 0.9);
+     width: 430px;
+     height: 50px;
+     margin-left: 400px;
+     border-radius: 80px;
+     padding: 15px;
+ }
+
+ #timer_heading {
+     width: 180px;
+     color: black;
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ #timer_heading2 {
+     color: black;
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ #changeColour {
+     width: 1150px;
+     height: 420px;
+     max-width: 1150px;
+     max-height: 450px;
+ }
+
+ #dis {
+     font-family: 'Nunito', sans-serif;
+     text-align: center;
+     font-size: 40px;
+ }
+
+ #scroll {
+     text-align: center;
+     font-family: 'Questrial', sans-serif;
+ }
+
+ .time {
+     float: left;
+ }
+
+ h1 {
+     margin-block-start: 2px;
+     margin-block-end: 2px;
+     text-align: center;
+     font-size: 60px;
+ }
+
+ footer {
+     margin-top: 120px;
+     color: black;
+     margin-left: 20px;
+     font-family: 'Oxygen', sans-serif;
+     font-size: 15px;
+     font-weight: bold;
+     display: none;
+     text-align: center;
+ }
+
+ a:link {
+     color: gray;
+ }
+
+ a:visited {
+     color: rgb(11, 28, 61);
+ }
+
+ a:active {
+     color: yellow;
+ }
+
+ hr {
+     border: 0;
+     height: 1.5px;
+     background: #333;
+     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+     margin: 5px;
+ }
+
+ input {
+     margin-left: 400px;
+     width: 20px !important;
+     height: 20px !important;
+     border: 10px;
+   
+ }
+ .ans{
+     padding-top: 5px;
+     margin-top: 5px;
+     padding-left: 25px;
+     padding-right: 25px;
+
+ }
+ .ans1{
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-left: 21px;
+    padding-right: 20px;
+ }

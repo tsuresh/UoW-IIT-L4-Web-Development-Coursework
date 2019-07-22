@@ -1,0 +1,241 @@
+body {
+	margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #413e4d;
+    background-image: url(../img/bg.png);
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+}
+.logo {
+	width: 215px;
+    margin: 25px 0 0 25px;
+}
+.container {
+	display:inline-block;
+	margin:20px;
+}
+.wrapper {
+	text-align: center;
+}
+.homeFeatured {
+	text-align: center;
+	text-shadow: 2px 3px 5px #000;
+	margin: 40px 0;
+}
+h1 {
+	display: inline-block;
+    font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 4px;
+}
+h2 {
+	text-shadow: 2px 3px 0px #000;
+	font-weight: 700;
+}
+p.subtitle {
+	display: inline-block;
+	font-size: 22px;
+}
+p {
+	font-weight:100;
+}
+.block {
+	display: block;
+    width: 250px;
+    min-height: 360px;
+    background: #353535;
+    padding: 50px 30px 0 27px;
+    margin: 15px;
+    float: left;
+    border-radius: 20px;
+	box-shadow: 0 0 8px 4px #01070a;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bigBlock {
+	background-color: #353535;
+    background-image: url(../img/mask.png);
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 4px #01070a;
+    margin: 44px 15px;
+    background-position: right;
+    text-align: left;
+    background-repeat: no-repeat;
+}
+.bigBlock h1 {
+	display: inline;
+}
+.bigBlock p {
+	font-size: 15px;
+}
+.block p {
+	font-size:15px;
+}
+.block h2 {
+	font-weight:300;
+}
+.block a {
+	color:#fff;
+}
+a.btn {
+	display:inline-block;
+	text-decoration:none;
+	border:2px solid #fff;
+	padding:10px;
+	color:#fff;
+	margin:auto;
+	border-radius:15px;
+	font-weight:300;
+	font-size: 14px;
+}
+a.btn:hover {
+	background:#fff;
+	color:#000;
+}
+a.featuredLink {
+	color: #fff;
+    font-size: 14px;
+    margin-top: 12px;
+    display: inline-block;
+}
+.clearfix {
+	clear:both;
+}
+.footer {
+	font-size: 14px;
+	margin-left: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+}
+nav ul li a {
+	display: block;
+    background: #353535;
+    color: #fff;
+    text-decoration: none;
+	padding: 21px;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	background: #413e4d;
+}
+
+nav {
+	display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+nav ul li:first-child a {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+nav ul li:last-child a {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.searchBox, .textField {
+	background: #c5c5c5;
+    border: 2px solid #c5c5c5;
+    padding: 17px;
+    border-radius: 19px;
+    width: 400px;
+    color: #000;
+    box-shadow: -1px 8px 9px 0px #01070a;
+    outline: none;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.btnSubmit {
+	background: #d37a72;
+    border: 2px solid #d37a72;
+    padding: 17px;
+    border-radius: 19px;
+    width: 446px;
+    color: #000;
+    box-shadow: -1px 8px 9px 0px #01070a;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.searchIcon {
+	margin-left: -35px;
+    text-shadow: none;
+    color: #000;
+}
+
+#blkNEliya {
+	background-image: url(../img/nuwaraEliya.png);
+	background-position: 0 -140px;
+}
+
+#blkGalle {
+	background-image: url(../img/galle.png);
+    background-position: 0 -140px;
+}
+
+#blkColombo {
+	background-image: url(../img/colombo.png);
+    background-position: 0 -160px;
+}
+
+#blkKandy {
+	background-image: url(../img/kandy.png);
+    background-position: 0 -190px;
+}
+
+#scrollBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+  }
+  
+#scrollBtn:hover {
+	background-color: #555;
+}
+
+@media only screen and (max-width: 1390px) {
+	.block {
+		width: auto;
+		float: none;
+		margin: 44px 15px;
+		background-position: 0 -304px !important;
+		padding: 65px;
+		min-height: auto;
+	}
+	a.btn {
+		font-size: 25px;
+	}
+  }

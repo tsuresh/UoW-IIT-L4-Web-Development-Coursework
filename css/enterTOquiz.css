@@ -1,0 +1,149 @@
+body {
+    background-color:black;
+}
+
+#bg {
+    width: 1200px;
+    height: 580px;
+    background-image: url('../img/new002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+#imgQ {
+    margin-top: 6px;
+    margin-left: 5px;
+    position: relative;
+
+}
+
+.imgQ:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(170, 183, 184, 0.9);
+    overflow: hidden;
+    width: 0;
+    height: 10%;
+    transition: .5s ease;
+    margin-left: 6.5%;
+    margin-bottom: 500px;
+}
+
+.image:hover .overlay {
+    width: 52%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.text {
+    white-space: nowrap;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+
+}
+
+.image {
+    width: 320px;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 290px;
+    margin-top: 120px;
+    border-radius: 160px;
+
+}
+
+footer {
+    margin-top: 120px;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:active {
+    color: yellow;
+}
+hr {
+    border: 0;
+    height: 1.5px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.text {
+    font-family: sans-serif;
+}
