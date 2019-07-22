@@ -36,6 +36,7 @@ h2 {
 	font-weight: 700;
 }
 p.subtitle {
+	max-width: 550px;
 	display: inline-block;
 	font-size: 22px;
 }
@@ -203,6 +204,26 @@ nav ul li:last-child a {
 
 #blkKandy {
 	background-image: url(../img/kandy.png);
+    background-position: 0 -190px;
+}
+
+#blkGalleface {
+	background-image: url(../img/galleface.png);
+    background-position: 0 -190px;
+}
+
+#blkGangarama {
+	background-image: url(../img/gangarama.png);
+    background-position: -260px -147px;
+}
+
+#blkMuseum {
+	background-image: url(../img/museum.png);
+    background-position: 0 -190px;
+}
+
+#blkViharamahadevi {
+	background-image: url(../img/viharamahadevi.png);
     background-position: 0 -190px;
 }
 
