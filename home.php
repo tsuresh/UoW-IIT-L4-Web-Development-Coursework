@@ -1,4 +1,4 @@
-<?php include('includes/base/header.php') ?>
+<?php $title = "Home"; include('includes/base/header.php') ?>
 <div class="homeFeatured">
    <h1>Explore Sri Lanka<br>Wonder of Asia</h1>
    <br>

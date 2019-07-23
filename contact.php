@@ -1,4 +1,4 @@
-<?php include('includes/base/header.php') ?>
+<?php $title = "Contact"; include('includes/base/header.php') ?>
 <div class="homeFeatured">
    <h1>Contact Us</h1>
    <br>

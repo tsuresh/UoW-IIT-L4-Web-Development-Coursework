@@ -1,4 +1,4 @@
-<?php include('includes/base/header.php') ?>
+<?php $title = "Colombo"; include('includes/base/header.php') ?>
 <style>
 body {
     background-image: url(img/colomboBG.png);
