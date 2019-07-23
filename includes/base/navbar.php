@@ -1,10 +1,10 @@
 <nav>
          <ul>
             <li>
-               <a href="index.php">Home</a>
+               <a href="home.php">Home</a>
             </li>
             <li>
-               <a href="intro.php">Meet the team</a>
+               <a href="index.php">Meet the team</a>
             </li>
             <li>
                <a href="enterTOquiz.php">Quiz</a>
