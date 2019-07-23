@@ -62,7 +62,7 @@
       <script>
       var myVar = setInterval(redirect, 4000);
       function redirect() {
-         window.location = "index.php";
+         window.location = "home.php";
       }
       </script>
    </body>
