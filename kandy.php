@@ -46,4 +46,8 @@ body {
    </div>
 </div>
 
-<?php include('includes/base/footer.php') ?>
+<?php
+$footerAuthor = '<a href="cvNiluja.php">Niluja Parameswaran</a>'; 
+$lastUpdates = "23/07/2019";
+include('includes/base/footer.php') 
+?>
