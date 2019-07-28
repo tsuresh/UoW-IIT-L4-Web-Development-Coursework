@@ -164,7 +164,24 @@
 </head>
 
 <body>
+        <nav>
+                <ul>
+                   <li>
+                      <a href="home.php">Home</a>
+                   </li>
+                   <li>
+                      <a href="index.php">Meet the team</a>
+                   </li>
+                   <li>
+                      <a href="enterTOquiz.php">Quiz</a>
+                   </li>
+                   <li>
+                      <a href="contact.php">Contact Us</a>
+                   </li>
+                </ul>
+             </nav>
     <h2 id="questionNum"></h2>
+
     <div id="timer">
         <div id="timer_heading" class="time">Time Left: </div>
         <div id="timer_heading2" class="time"> </div>
@@ -174,11 +191,12 @@
 
     <div id="displayAnswer" style="display: none; ">
     </div>
+    
+        
     <footer id="footer">
-        <hr>
-        CREATED BY : <a href="cvMalsha.php">Malsha
-            Piumini</a>
-        Last Modified date : 7/7/2019
+              <a href="home.php">Home</a> | <a href="index.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a href="contact.php">Contact Us</a><br>
+            Written by: <a href="cvMalsha.php">Malsha Piumini</a> | Last updated: 22/07/2019
+            </footer>
     </footer>
 </body>
 

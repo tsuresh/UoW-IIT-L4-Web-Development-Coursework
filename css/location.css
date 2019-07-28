@@ -1,121 +1,171 @@
    .div_one {
-            float: left;
-            width: 250px;
-            height: 250px;
-            max-height: 250px;
-            margin: 38px;
-            padding-left: 5px;
-            position: relative;
-            margin-top: -160px;
-            cursor: pointer;
-        }
+       float: left;
+       width: 250px;
+       height: 250px;
+       max-height: 250px;
+       margin: 38px;
+       padding-left: 3px;
+       position: relative;
+       margin-top: 250px;
+       cursor: pointer;
+   }
 
-        .one {
-            border-radius: 200px;
-            overflow: scroll;
+   nav ul li {
+       float: left;
+       list-style: none;
+   }
 
-        }
+   nav ul li a {
+       display: block;
+       background: #020202;
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+       padding: 21px;
+       font-size: 20px;
+       font-weight: bold;
+   }
 
-        .text {
-            margin-top: 40px;
-            font-size: 30px;
-            text-align: center;
-            font-family: 'Sniglet', cursive;
-        }
+   nav {
+       display: inline-block;
+       float: left;
+       position: absolute;
+       margin-right: 20px;
+       margin-top: 10px;
+   }
 
-        .one {
-            padding: 12px;
-            background-color: transparent;
-            transition: transform .2s;
-            /* Animation */
+   nav ul li:first-child a {
+       border-top-left-radius: 15px;
+       border-bottom-left-radius: 15px;
+   }
 
-            margin: 0 auto;
-        }
+   nav ul li:last-child a {
+       border-top-right-radius: 15px;
+       border-bottom-right-radius: 15px;
+   }
 
-        .one:hover {
-            transform: scale(1.5);
-            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        }
+   .oneimg {
+       border-radius: 200px;
+       overflow: scroll;
+       box-shadow: 0 0 8px 2px #01070a;
+   }
 
-        #description {
-            color: black;
-            position: absolute;
-            margin-top: 220px;
-            width: 1300px;
-            height: 700px;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background-image: url('../img/f.jpg');
-            background-size: cover;
-            margin-left: 6px;
-            font-family: 'Varela Round', sans-serif;
-        }
+   .text {
+       margin-top: 40px;
+       font-size: 30px;
+       text-align: center;
+       font-family: 'Sniglet', cursive;
+       color: white;
+   }
 
+   .oneimg {
+       background-color: transparent;
+       transition: transform .2s;
+       /* Animation */
+       margin: 0 auto;
+   }
 
+   .oneimg:hover {
+       transform: scale(1.2);
+       /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   }
 
-        p {
+   .description {
+       display: block;
+       width: 1000px;
+       min-height: 360px;
+       background: rgb(39, 38, 38, 0.95);
+       padding: 50px 30px 0 27px;
+       margin: 15px;
+       float: left;
+       margin-top: 180px;
+       border-radius: 20px;
+       box-shadow: 0 0 8px 4px #01070a;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-left: 150px;
+       text-align: center;
+   }
 
-            text-align: justify;
-            margin: 30px;
-            font-size: 30px;
+   p {
+       color: white;
+       text-align: center;
+       margin: 30px;
+       font-size: 15px;
+   }
 
+   #link {
+       margin-top: 250px;
+       font-size: 15px;
+   }
 
-        }
+   .sub {
+       float: left;
+       width: 250px;
+       height: 600px;
+       margin: 10px;
+       text-align: justify;
+       font-family: 'Didact Gothic', sans-serif;
+       color: white;
+       margin-left: 30px;
+       font-size: 20px;
+   }
 
-        #link {
-            margin-top: 250px;
-            font-size: 15px;
-        }
+   #two {
+       background-color: rgba(0, 3, 7, 0.8);
+       margin-left: 45px;
+       width: 1200px;
+       height: 400px;
+       position: relative;
+       margin-top: 300px;
+   }
 
-        .sub {
-            float: left;
-            width: 250px;
-            height: 600px;
-            margin: 10px;
-            text-align: justify;
-            font-family: 'Didact Gothic', sans-serif;
-            color: white;
-            margin-left: 30px;
-            font-size: 20px;
-        }
+   a:link {
+       color: white;
+   }
 
-        #two {
-            background-color: rgba(0, 3, 7, 0.8);
-            margin-left: 45px;
-            width: 1200px;
-            height: 400px;
+   a:visited {
+       color: aqua;
+   }
 
+   a:active {
+       color: yellow;
+   }
 
-        }
+   h1 {
+       padding: 10px;
+       font-family: 'Varela Round', sans-serif;
+       font-size: 50px;
+       margin-left: 20px;
+       text-align: center;
+   }
 
-        a:link {
-            color: gray;
-        }
+   footer {
+       align-content: center;
+       margin-top: 1400px;
+       font-family: 'Oxygen', sans-serif;
+       font-size: 15px;
+       position: absolute;
+       text-align: center;
+       margin-left: 450px;
+   }
 
-        a:visited {
-            color: aqua;
-        }
+   body {
+       background-color: black;
+       background-image: url(../img/galle.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+   }
 
-        a:active {
-            color: yellow;
-        }
+   #des {
+       font-size: 20px;
+       color: white;
+       text-align: justify;
+       font-family: 'Quicksand', sans-serif;
+   }
 
-        h1 {
-            padding: 10px;
-            font-family: 'Varela Round', sans-serif;
-            font-size: 50px;
-            margin-left: 20px;
-            text-align: center;
-        }
-        footer {
-            margin-top:950px;
-            color: black;
-            margin-left: 20px;
-            font-family: 'Oxygen', sans-serif;
-            font-size: 15px;
-            font-weight: bold;
-            position: absolute;
-
-        }
+   h1 {
+       color: white;
+       margin-block-start: 1px;
+       margin-block-end: 1px;
+   }

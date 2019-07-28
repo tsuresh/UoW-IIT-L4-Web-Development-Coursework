@@ -11,7 +11,7 @@ body {
     margin-left: 80px;
     margin-top: 20px;
     padding-top: 10px;
-    border-radius: 50px;
+  
 }
 
 #imgQ {
@@ -20,7 +20,36 @@ body {
     position: relative;
 
 }
+nav ul li {
+	float: left;
+	list-style: none;
+}
+nav ul li a {
+	display: block;
+    background: #353535;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+nav {
+	display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+nav ul li:first-child a {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+nav ul li:last-child a {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
 .imgQ:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
@@ -84,7 +113,7 @@ body {
     height: 10%;
     transition: .5s ease;
     margin-left: 6.5%;
-    margin-bottom: 500px;
+    margin-bottom: 450px;
 }
 
 .image:hover .overlay {
@@ -127,7 +156,7 @@ footer {
 }
 
 a:link {
-    color: gray;
+    color: white;
 }
 
 a:visited {
@@ -142,8 +171,4 @@ hr {
     height: 1.5px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
-.text {
-    font-family: sans-serif;
 }

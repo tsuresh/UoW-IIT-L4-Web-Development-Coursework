@@ -1,15 +1,15 @@
  div#test {
-     padding: 10px 40px 40px 40px;
+     padding: 10px 50px 50px 50px;
      font-family: 'Nunito', sans-serif;
-     font-size: 25px;
-     padding-left: 100px;
-     margin-left: 50px;
+     font-size: 23px;
+     padding-left: 150px;
+     margin-left: 100px;
      color: white;
-     margin-right: 80px;
+     margin-right: 100px;
      background-color: rgba(0, 2, 3, 0.7);
      border-radius: 80px;
      margin-top: 10px;
-     height: 310px;
+     height: 300px;
  }
 
  body {
@@ -20,12 +20,15 @@
      color: 155, 89, 182;
      font-family: 'Nunito', sans-serif;
      font-size: 30px;
+     margin: 0;
  }
 
  h2 {
-     text-align: center;
+
      margin-block-start: 5px;
-     margin-block-end: 5px;
+     margin-block-end: 10px;
+     padding-left: 230px;
+     font-size: 45px;
  }
 
  p {
@@ -37,7 +40,7 @@
      margin-top: 15px;
      width: 500px;
      margin-top: 10px;
-     font-size: 20px;
+     font-size: 18px;
      margin-left: 400px;
      border-radius: 20px;
      text-align: left;
@@ -56,13 +59,13 @@
      text-decoration: none;
      display: inline-block;
      font-size: 30px;
-     margin: 3px 2px;
+     margin-top: 5px;
      cursor: pointer;
      font-family: 'Nunito', sans-serif;
      font-weight: bold;
      border-radius: 5px;
      transition: all 0.25s ease-in;
-     margin-left: 750px;
+     margin-left: 640px;
      
  }
 
@@ -117,29 +120,20 @@
  }
 
  h1 {
-     margin-block-start: 2px;
+     margin-block-start: 5px;
      margin-block-end: 2px;
-     text-align: center;
-     font-size: 60px;
+     font-size:45px;
+    padding-left: 330px;
  }
 
- footer {
-     margin-top: 120px;
-     color: black;
-     margin-left: 20px;
-     font-family: 'Oxygen', sans-serif;
-     font-size: 15px;
-     font-weight: bold;
-     display: none;
-     text-align: center;
- }
+ 
 
  a:link {
-     color: gray;
+     color: rgb(255, 253, 255);
  }
 
  a:visited {
-     color: rgb(11, 28, 61);
+     color: rgb(224, 108, 213);
  }
 
  a:active {
@@ -155,7 +149,7 @@
  }
 
  input {
-     margin-left: 400px;
+     margin-left: 300px;
      width: 20px !important;
      height: 20px !important;
      border: 10px;
@@ -174,3 +168,48 @@
     padding-left: 21px;
     padding-right: 20px;
  }
+ nav ul li {
+	float: left;
+	list-style: none;
+}
+nav ul li a {
+	display: block;
+    background: #353535;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav {
+	display: inline-block;
+    float: right;
+    margin-right: 5px;
+    margin-top: -2px;
+    font-size: 15px;
+}
+
+nav ul li:first-child a {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+nav ul li:last-child a {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#Q{
+font-size: 25px;
+}
+footer {
+    margin-top: 120px;
+    color: white(250, 244, 244);
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    display: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5); 
+    padding: 10px;
+    width: 98.5%;
+    height: 50px;
+}

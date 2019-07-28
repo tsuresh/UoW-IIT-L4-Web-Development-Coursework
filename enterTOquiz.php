@@ -14,7 +14,22 @@
 
 <body>
     <div id="bg" class="container">
-
+            <nav>
+                    <ul>
+                       <li>
+                          <a href="home.php">Home</a>
+                       </li>
+                       <li>
+                          <a href="index.php">Meet the team</a>
+                       </li>
+                       <li>
+                          <a href="enterTOquiz.php">Quiz</a>
+                       </li>
+                       <li>
+                          <a href="contact.php">Contact Us</a>
+                       </li>
+                    </ul>
+                 </nav>
         <div id="image" class="image">
                 <a href="FinalQuiz.php">
                         <img src="img/my.png" height="400px" width="320px" id="imgQ" class="imgQ" >
@@ -26,14 +41,14 @@
             </div>
         </div>
        
-       <footer>
-           <hr>
-           
-            CREATED BY : <a href="cvMalsha.php">Malsha
-                Piumini</a>
-            Last Modified date : 7/7/2019
-        </footer>
+        <footer>
+            <div class="footer">
+                <p><a href="home.php">Home</a> | <a href="index.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a href="contact.php">Contact Us</a></p>
+                <p>Written by: <a href="cvMalsha.php">Malsha Piumini</a> | Last updated: 22/07/2019</p>
+             </div>
+            </footer>
     </div>
+   
 </body>
 
 </html>
