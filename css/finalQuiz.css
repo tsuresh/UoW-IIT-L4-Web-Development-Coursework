@@ -27,8 +27,8 @@
 
      margin-block-start: 5px;
      margin-block-end: 10px;
-     padding-left: 230px;
-     font-size: 45px;
+     padding-left: 250px;
+     font-size: 43px;
  }
 
  p {
@@ -41,7 +41,7 @@
      width: 500px;
      margin-top: 10px;
      font-size: 18px;
-     margin-left: 400px;
+     margin-left: 600px;
      border-radius: 20px;
      text-align: left;
      padding-left: 50px;
@@ -121,8 +121,8 @@
 
  h1 {
      margin-block-start: 5px;
-     margin-block-end: 2px;
-     font-size:45px;
+     margin-block-end: 5px;
+     font-size:40px;
     padding-left: 330px;
  }
 
@@ -133,7 +133,7 @@
  }
 
  a:visited {
-     color: rgb(224, 108, 213);
+     color: rgb(223, 200, 220);
  }
 
  a:active {

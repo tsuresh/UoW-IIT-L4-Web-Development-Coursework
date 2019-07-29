@@ -4,7 +4,7 @@
                <a href="home.php">Home</a>
             </li>
             <li>
-               <a href="index.php">Meet the team</a>
+               <a href="team.php">Meet the team</a>
             </li>
             <li>
                <a href="enterTOquiz.php">Quiz</a>

@@ -2,6 +2,7 @@
 
 <head>
         <meta name="description" content="Enter to Quiz web page"> 
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <meta name="keywords" content="Enter to quiz page by HTML,CSS" > 
         <meta name="author" content="Malsha Piumini">
         <link href="css/enterTOquiz.css" rel="stylesheet" type="text/css">
@@ -14,28 +15,7 @@
 
 <body>
     <div id="bg" class="container">
-    <nav>
-         <ul>
-            <li>
-               <a href="home.php">Home</a>
-            </li>
-            <li>
-               <a href="index.php">Meet the team</a>
-            </li>
-            <li>
-               <a href="enterTOquiz.php">Quiz</a>
-            </li>
-            <li>
-               <a href="gallery.php">Gallery</a>
-            </li>
-            <li>
-               <a href="sitemap.php">Sitemap</a>
-            </li>
-            <li>
-               <a href="contact.php">Contact Us</a>
-            </li>
-         </ul>
-      </nav>
+    <?php include('includes/base/navbar.php') ?>
         <div id="image" class="image">
                 <a href="FinalQuiz.php">
                         <img src="img/my.png" height="400px" width="320px" id="imgQ" class="imgQ" >
@@ -49,7 +29,7 @@
        
         <footer>
             <div class="footer">
-                <p><a href="home.php">Home</a> | <a href="index.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a href="contact.php">Contact Us</a></p>
+                <p><a href="home.php">Home</a> | <a href="team.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a href="contact.php">Contact Us</a></p>
                 <p>Written by: <a href="cvMalsha.php">Malsha Piumini</a> | Last updated: 22/07/2019</p>
              </div>
             </footer>

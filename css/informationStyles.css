@@ -38,6 +38,7 @@ nav ul li a {
 	display: block;
     background: #353535;
     color: #fff;
+    font-family: 'Nunito', sans-serif;
     text-decoration: none;
     padding: 21px;
     font-weight: bold;
@@ -96,7 +97,7 @@ nav ul li:last-child a {
 }
 
 footer {
-    margin-top: 500px;
+    margin-top: 600px;
     color: white;
     margin-left: 20px;
     font-family: 'Oxygen', sans-serif;
@@ -108,6 +109,7 @@ h1 {
     margin-block-start: -40px;
     margin-block-end: 10px;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 
 }
 

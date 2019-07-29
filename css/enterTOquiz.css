@@ -8,7 +8,7 @@ body {
     background-image: url('../img/new002.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 20px;
     padding-top: 10px;
   
@@ -28,6 +28,7 @@ nav ul li a {
 	display: block;
     background: #353535;
     color: #fff;
+    font-family: 'Nunito', sans-serif;
     text-decoration: none;
     padding: 15px;
     font-weight: bold;
@@ -113,7 +114,7 @@ nav ul li:last-child a {
     height: 10%;
     transition: .5s ease;
     margin-left: 6.5%;
-    margin-bottom: 450px;
+    margin-bottom: 570px;
 }
 
 .image:hover .overlay {
@@ -133,6 +134,7 @@ nav ul li:last-child a {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: left;
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -147,7 +149,7 @@ nav ul li:last-child a {
 }
 
 footer {
-    margin-top: 120px;
+    margin-top: 220px;
     color: white;
     margin-left: 20px;
     font-family: 'Oxygen', sans-serif;

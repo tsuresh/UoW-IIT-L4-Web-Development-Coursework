@@ -1,101 +1,60 @@
 <!DOCTYPE html>
-<html lang=“en”>
-
+<html>
 <head>
-    <meta name="description" content="Roles of the memmbers">
-    <meta name="keywords" content="display a content in a div when on image hover">
-    <meta name="author" content="Malsha Piumini">
-    <meta http-equiv="refresh" content="30">
-    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|DM+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poppins&display=swap" rel="stylesheet">
-    <link href="css/informationStyles.css" rel="stylesheet" type="text/css">
-    <title>
-        Student Information
-    </title>
-    <style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    </style>
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
-
 <body>
 
-        <h6>
-        <nav>
-         <ul>
-            <li>
-               <a href="home.php">Home</a>
-            </li>
-            <li>
-               <a href="index.php">Meet the team</a>
-            </li>
-            <li>
-               <a href="enterTOquiz.php">Quiz</a>
-            </li>
-            <li>
-               <a href="gallery.php">Gallery</a>
-            </li>
-            <li>
-               <a href="sitemap.php">Sitemap</a>
-            </li>
-            <li>
-               <a href="contact.php">Contact Us</a>
-            </li>
-         </ul>
-      </nav>
-        </h6>
+<h2>TRAVEL SRILANKA</h2>
 
-    <h1>Meet The Members
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+  <img src="img/niluu.jpg" alt="nilu" style="width:100%">
+    <h2>Niluja Parameswaran</h2>
+    <p>Student 1</p>
+  </div>
+  <div class="column" style="background-color:#aaa;">
+  <img src="img/suresh.jpg" alt="suresh" style="width:100%">
+    <h2>Suresh Peiris</h2>
+    <p>Student 2</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+  <img src="img/malsha.jpg" alt="malsha" style="width:100%">
+    <h2>Malsha Piumini</h2>
+    <p>Student 3</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+  <img src="img/shian.jpg" alt="shian" style="width:100%">
+    <h2>Shian Fernando</h2>
+    <p>Student 4</p>
+  </div>
+  
+</div>
+<script>
+    var myVar = setInterval(redirect, 4000);
+    function redirect() {
+        window.location = "home.php";
+    }
+</script>
 
-        
-    </h1>
-    <div>
-        <div class="div_one">
-            <a href="cvNiluja.php">
-                <div class="overlay">
-                    <div class="text">STUDENT 01<br>Niluja Parameswaran</div>
-                </div>
-                <img class="one" id="nilu" src="img/nilu.jpg" alt="nilu" width="250px" height="250px"
-                    style=" margin-top: 25px;">
-            </a>
-        </div>
-        <div class="div_one">
-            <a href="cvSuresh.php">
-            <div class="overlay">
-                <div class="text">STUDENT 02<br>Suresh Peries</div>
-            </div>
-            <img class="one" src="img/suresh2.jpg" id="suresh" alt="suresh" width="250px" height="250px"
-                style=" margin-top: 25px;">
-            </a>
-        </div>
-        <div class="div_one">
-            <a href="cvMalsha.php">
-            <div class="overlay">
-                <div class="text">STUDENT 03<br>Malsha Piumini</div>
-            </div>
-            <img class="one" src="img/malsha2.jpg" alt="Malsha" width="250px" height="250px" style="margin-top: 25px;">
-            </a>
-        </div>
-        <div class="div_one">
-            <a href="cvShian.php">
-            <div class="overlay">
-                <div class="text">STUDENT 04<br>Shian Fernando</div>
-            </div>
-            <img class="one" src="img/shian.jpg" alt="shian" width="250px" height="250px" style=" margin-top: 25px;">
-            </a>
-        </div>
-    </div>
-    <footer>
-        <div class="footer">
-            <p><a href="home.php">Home</a> | <a href="index.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a href="contact.php">Contact Us</a></p>
-            <p>Written by: <a href="cvMalsha.php">Malsha Piumini</a> | Last updated: 22/07/2019</p>
-         </div>
-    </footer>
-    <script>
-      var myVar = setInterval(redirect, 4000);
-      function redirect() {
-         window.location = "home.php";
-      }
-      </script>
 </body>
-
 </html>

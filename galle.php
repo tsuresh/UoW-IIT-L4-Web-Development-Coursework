@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang=“en”>
 
 <head>
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Muli|Sniglet&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Muli|Sniglet|Varela+Round&display=swap"
         rel="stylesheet">
@@ -14,30 +15,7 @@
 
 <body>
 
-<nav>
-         <ul>
-            <li>
-               <a href="home.php">Home</a>
-            </li>
-            <li>
-               <a href="index.php">Meet the team</a>
-            </li>
-            <li>
-               <a href="enterTOquiz.php">Quiz</a>
-            </li>
-            <li>
-               <a href="gallery.php">Gallery</a>
-            </li>
-            <li>
-               <a href="sitemap.php">Sitemap</a>
-            </li>
-            <li>
-               <a href="contact.php">Contact Us</a>
-            </li>
-         </ul>
-      </nav>
-
-
+    <?php include('includes/base/navbar.php') ?>
 
     <div>
         <div class="div_one">
@@ -102,7 +80,7 @@
     </div>
     <footer>
 
-        <p><a href="home.php">Home</a> | <a href="index.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a
+        <p><a href="home.php">Home</a> | <a href="team.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a
                 href="contact.php">Contact Us</a></p>
         <p>Written by: <a href="cvMalsha.php">Malsha Piumini</a> | Last updated: 22/07/2019</p>
 

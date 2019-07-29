@@ -8,6 +8,7 @@
        position: relative;
        margin-top: 250px;
        cursor: pointer;
+       margin-left: 60px;
    }
 
    nav ul li {
@@ -19,6 +20,7 @@
        display: block;
        background: #020202;
        color: rgb(255, 255, 255);
+       font-family: 'Nunito', sans-serif;
        text-decoration: none;
        padding: 21px;
        font-size: 20px;
@@ -151,7 +153,7 @@
 
    body {
        background-color: black;
-       background-image: url(../img/galle.png);
+       background-image: url(../img/galle1.png);
        background-size: cover;
        background-repeat: no-repeat;
        background-attachment: fixed;

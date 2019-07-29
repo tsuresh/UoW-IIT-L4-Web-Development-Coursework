@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang=“en”>
+
+<head>
+    <meta name="description" content="Roles of the memmbers">
+    <meta name="keywords" content="display a content in a div when on image hover">
+    <meta name="author" content="Malsha Piumini">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|DM+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poppins&display=swap" rel="stylesheet">
+    <link href="css/informationStyles.css" rel="stylesheet" type="text/css">
+    <title>
+        Student Information
+    </title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+        <h6>
+        <?php include('includes/base/navbar.php') ?>
+        </h6>
+
+    <h1>Meet The Members
+
+        
+    </h1>
+    <div>
+        <div class="div_one">
+            <a href="cvNiluja.php">
+                <div class="overlay">
+                    <div class="text">STUDENT 01<br>Niluja Parameswaran</div>
+                </div>
+                <img class="one" id="nilu" src="img/nilu.jpg" alt="nilu" width="250px" height="250px"
+                    style=" margin-top: 25px;">
+            </a>
+        </div>
+        <div class="div_one">
+            <a href="cvSuresh.php">
+            <div class="overlay">
+                <div class="text">STUDENT 02<br>Suresh Peries</div>
+            </div>
+            <img class="one" src="img/suresh2.jpg" id="suresh" alt="suresh" width="250px" height="250px"
+                style=" margin-top: 25px;">
+            </a>
+        </div>
+        <div class="div_one">
+            <a href="cvMalsha.php">
+            <div class="overlay">
+                <div class="text">STUDENT 03<br>Malsha Piumini</div>
+            </div>
+            <img class="one" src="img/malsha2.jpg" alt="Malsha" width="250px" height="250px" style="margin-top: 25px;">
+            </a>
+        </div>
+        <div class="div_one">
+            <a href="cvShian.php">
+            <div class="overlay">
+                <div class="text">STUDENT 04<br>Shian Fernando</div>
+            </div>
+            <img class="one" src="img/shian.jpg" alt="shian" width="250px" height="250px" style=" margin-top: 25px;">
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p><a href="home.php">Home</a> | <a href="index.php">Team</a> | <a href="enterTOquiz.php">Quiz</a> | <a href="contact.php">Contact Us</a></p>
+            <p>Written by: <a href="cvMalsha.php">Malsha Piumini</a> | Last updated: 22/07/2019</p>
+         </div>
+    </footer>
+</body>
+
+</html>

@@ -1,13 +1,13 @@
 <?php $title = "Kandy"; include('includes/base/header.php') ?>
 <style>
 body {
-    background-image: url(img/kandy-lake.png);
+    background-image: url(img/kandyBg.jpg);
 }
 </style>
 <div class="homeFeatured">
    <h1>Explore Kandy</h1>
    <br>
-   <p class="subtitle">Kandy is a large city in central Sri Lanka. It's set on a plateau surrounded by mountains, which are home to tea plantations and biodiverse rainforest. The city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for strolling. Kandy is famed for sacred Buddhist sites, including the Temple of the Tooth (Sri Dalada Maligawa) shrine, celebrated with the grand Esala Perahera annual procession.
+   <p class="subtitle" style="color:#000;">Kandy is a large city in central Sri Lanka. It's set on a plateau surrounded by mountains, which are home to tea plantations and biodiverse rainforest. The city's heart is scenic Kandy Lake (Bogambara Lake), which is popular for strolling. Kandy is famed for sacred Buddhist sites, including the Temple of the Tooth (Sri Dalada Maligawa) shrine, celebrated with the grand Esala Perahera annual procession.
 </p>
 </div>
 
